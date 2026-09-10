@@ -157,8 +157,8 @@ For questions regarding the benchmark or the paper, please contact:
 
 For questions regarding the benchmark or the paper, please contact:
 
-**Julia Merta**
-Department of Data Science and Engineering
-Silesian University of Technology
-📧 [julia.merta@polsl.pl](mailto:julia.merta@polsl.pl)
+- **Julia Merta**
+- Department of Data Science and Engineering
+- Silesian University of Technology
+- 📧 [julia.merta@polsl.pl](mailto:julia.merta@polsl.pl)
 
