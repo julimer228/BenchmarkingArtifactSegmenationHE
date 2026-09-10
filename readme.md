@@ -149,10 +149,16 @@ This repository is released under the **[MIT / Apache-2.0 / GPL-3.0 / other]** l
 
 Please note that the datasets and benchmarked third-party methods may be distributed under their own licenses.
 
+Contact
+
+For questions regarding the benchmark or the paper, please contact:
+
 ## Contact
 
 For questions regarding the benchmark or the paper, please contact:
 
 **Julia Merta**
-[Department of Data Science and Engineering, Silesian University of Technology]
-[e-mail: julia.merta@polsl.pl]
+Department of Data Science and Engineering
+Silesian University of Technology
+📧 [julia.merta@polsl.pl](mailto:julia.merta@polsl.pl)
+
