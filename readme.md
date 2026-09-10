@@ -154,5 +154,5 @@ Please note that the datasets and benchmarked third-party methods may be distrib
 For questions regarding the benchmark or the paper, please contact:
 
 **Julia Merta**
-Department of Data Science and Engineering, Silesian University of Technology
-e-mail: julia.merta@polsl.pl
+[Department of Data Science and Engineering, Silesian University of Technology]
+[e-mail: julia.merta@polsl.pl]
