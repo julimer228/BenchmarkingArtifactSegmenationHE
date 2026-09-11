@@ -1,4 +1,4 @@
-# [Paper Title]
+# Benchmarking Artifact Segmentation Methods in H&E-Stained Whole Slide Imaging
 
 [![arXiv](https://img.shields.io/badge/arXiv-XXXX.XXXXX-b31b1b.svg)](https://arxiv.org/abs/XXXX.XXXXX)
 [![Preprint](https://img.shields.io/badge/Preprint-PDF-blue.svg)](https://arxiv.org/pdf/XXXX.XXXXX)
@@ -154,5 +154,7 @@ Please note that the datasets and benchmarked third-party methods may be distrib
 For questions regarding the benchmark or the paper, please contact:
 
 **Julia Merta**
-[Department of Data Science and Engineering, Silesian University of Technology]
-[e-mail: julia.merta@polsl.pl]
+- Department of Data Science and Engineering
+- Silesian University of Technology
+- 📧 [julia.merta@polsl.pl](mailto:julia.merta@polsl.pl)
+
