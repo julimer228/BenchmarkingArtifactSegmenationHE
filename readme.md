@@ -6,8 +6,8 @@
 
 This repository contains the code, experimental setup, and analysis associated with the benchmark paper:
 
-> **[Full Paper Title]**
-> [Author 1], [Author 2], [Author 3], ...
+> **Benchmarking Artifact Segmentation Methods in H&E-Stained Whole Slide Imaging**
+> Julia Merta, Joanna Polańska, Michał Marczyk, ...
 > *[Journal / Conference / Preprint, Year]*
 > [arXiv:XXXX.XXXXX](https://arxiv.org/abs/XXXX.XXXXX)
 
