@@ -117,11 +117,11 @@ Please refer to the paper for the complete description of dataset preparation, i
 If you use this benchmark, code, or results in your research, please cite our paper:
 
 ```bibtex
-@article{YOUR_CITATION_KEY,
-  title   = {[Paper Title]},
-  author  = {[Author 1] and [Author 2] and [Author 3]},
+@article{merta2026,
+  title   = {Benchmarking Artifact Segmentation Methods in H&E-Stained Whole Slide Imaging},
+  author  = {Merta, Julia and Polanska, Joanna and Marczyk, Michał},
   journal = {arXiv preprint arXiv:XXXX.XXXXX},
-  year    = {20XX},
+  year    = {2026},
   eprint  = {XXXX.XXXXX},
   archivePrefix = {arXiv},
   primaryClass   = {[e.g. cs.CV]},
@@ -139,9 +139,9 @@ A detailed description and discussion of the benchmark results can be found in t
 
 Key results include:
 
-* **[Main finding 1]**
-* **[Main finding 2]**
-* **[Main finding 3]**
+* **HistoKit achieved similar or better results for each metric than GrandQC across all datasets. ****
+* **Deep-learning methods trained on diverse datasets performed better than methods based on image quality metrics and thresholding-based methods.**
+* **Simple post-processing further improved segmentation quality produced by HistoKit**
 
 ## License
 
