@@ -23,7 +23,7 @@ This study provides a systematic benchmark of several methods for artifact segme
 * **Out-of-Focus** - image regions affected by blurring caused by the scanner movement being too fast or other factors.
 * **Pen** - regions containing pen or marker traces of various colors.
 
-## 🔬 Compared Histopathology Quality Control Tools
+## 🔎 Compared Histopathology Quality Control Tools
 <table width="100%">
   <thead>
     <tr>
@@ -69,7 +69,7 @@ This study provides a systematic benchmark of several methods for artifact segme
 
 The benchmark evaluates the methods across three manually annotated datasets using metrics including Dice, sensitivity, FDR for tissue versus artifact and background segmentation for all the methods. For GrandQC, HistoKit, and Patil et al. (2025), we also analyze Dice per artifact class.
 
-## Datasets
+## 💾 Datasets
 
 The benchmark was performed using the following datasets:
 
