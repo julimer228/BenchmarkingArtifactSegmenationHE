@@ -13,20 +13,73 @@ This repository contains the code, experimental setup, and analysis associated w
 
 ## Overview
 
-This study provides a systematic benchmark of several methods for **[briefly describe the task, e.g. histological image segmentation / nuclei detection / image analysis]**.
+This study provides a systematic benchmark of several methods for artifact segmentation and classification of the following classes of artifacts:
 
-We compare the following methods:
+* **Tissue** – tissue regions without artifacts.
+* **Background** – pixels corresponding to the slide background. For Dataset A, in the binary classification task, this class also includes pixels corresponding to tissue and other artifact types.
+* **Dark Spot** - dark regions caused by foreign objects, such as dust particles and hair, or by non-uniform illumination.
+* **Edge** - artifacts including coverslip edges, air bubbles, and cracked glass.
+* **Fold** – regions containing tissue folds.
+* **Out-of-Focus** - image regions affected by blurring caused by the scanner movement being too fast or other factors.
+* **Pen** - regions containing pen or marker traces of various colors.
 
-* **GrandQC**
-* **HistoKit**
-* **HistoQC**
-* **HistoROI**
-* **Patil et al. (2025)**
-* **Schreiber et al. (2024)**
+## 🔬 Compared Histopathology Quality Control Tools
+<table width="100%">
+  <thead>
+    <tr>
+      <th width="40%">Tool / Method</th>
+      <th width="30%">💻 Repository</th>
+      <th width="30%">📄 Paper</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>GrandQC</strong></td>
+      <td><a href="https://github.com/cpath-ukk/grandqc">Repository</a></td>
+      <td><a href="https://www.nature.com/articles/s41467-024-54769-y">Paper</a></td>
+    </tr>
+    <tr>
+      <td><strong>HistoKit</strong></td>
+      <td><a href="https://github.com/ZAEDPolSl/HistoKit/tree/main">Repository</a></td>
+      <td><a href="https://doi.org/10.5220/0000222000004070">Paper</a></td>
+    </tr>
+    <tr>
+      <td><strong>HistoQC</strong></td>
+      <td><a href="https://github.com/choosehappy/HistoQC">Repository</a></td>
+      <td><a href="https://andrewjanowczyk.com/wp-content/uploads/2019/04/HistoQC_w_supplemental.pdf">Paper</a></td>
+    </tr>
+    <tr>
+      <td><strong>HistoROI</strong></td>
+      <td><a href="https://github.com/abhijeetptl5/historoi">Repository</a></td>
+      <td><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10113897/">Paper</a></td>
+    </tr>
+    <tr>
+      <td><strong>Patil et al. (2025)</strong></td>
+      <td><a href="https://github.com/abhijeetptl5/wsisegqc">Repository</a></td>
+      <td><a href="https://arxiv.org/pdf/2410.03289">Paper</a></td>
+    </tr>
+    <tr>
+      <td><strong>Schreiber et al. (2024)</strong></td>
+      <td><a href="https://gitlab.developers.cam.ac.uk/bas43/h_and_e_otsu_thresholding">Repository</a></td>
+      <td><a href="https://www.nature.com/articles/s41598-023-50183-4">Paper</a></td>
+    </tr>
+  </tbody>
+</table>
 
-The benchmark evaluates the methods across **[datasets / experimental conditions / preprocessing settings]** using metrics including **[Dice, sensitivity, FDR, etc.]**.
 
-The goal of this repository is to provide the code and analysis required to reproduce the results reported in the paper.
+The benchmark evaluates the methods across three manually annotated datasets using metrics including Dice, sensitivity, FDR for tissue versus artifact and background segmentation for all the methods. For GrandQC, HistoKit, and Patil et al. (2025), we also analyze Dice per artifact class.
+
+## Datasets
+
+The benchmark was performed using the following datasets:
+
+| Dataset     | Description         | Reference / Link |
+| ----------- | ------------------- | ---------------- |
+| Dataset A | [Short description] | [Link]           |
+| Dataset B | [Short description] | [Link]           |
+| Dataset C (ours) | [Short description] | [Link]           |
+
+Please refer to the paper for the complete description of dataset preparation, inclusion criteria, and experimental settings.
 
 ## Paper / Preprint
 
@@ -101,17 +154,7 @@ The statistical analyses and scripts used to generate the figures reported in th
 statistical_analysis/
 ```
 
-## Datasets
 
-The benchmark was performed using the following datasets:
-
-| Dataset     | Description         | Reference / Link |
-| ----------- | ------------------- | ---------------- |
-| Dataset A | [Short description] | [Link]           |
-| Dataset B | [Short description] | [Link]           |
-| Dataset C (ours) | [Short description] | [Link]           |
-
-Please refer to the paper for the complete description of dataset preparation, inclusion criteria, and experimental settings.
 
 ## Citation
 
