@@ -17,11 +17,12 @@ This study provides a systematic benchmark of several methods for **[briefly des
 
 We compare the following methods:
 
-* **[Method 1]**
-* **[Method 2]**
-* **[Method 3]**
-* **[Method 4]**
-* **[Your method/tool, if applicable]**
+* **GrandQC**
+* **HistoKit**
+* **HistoQC**
+* **HistoROI**
+* **Patil et al. (2025)**
+* **Schreiber et al. (2024)**
 
 The benchmark evaluates the methods across **[datasets / experimental conditions / preprocessing settings]** using metrics including **[Dice, sensitivity, FDR, etc.]**.
 
@@ -131,15 +132,15 @@ If you use this benchmark, code, or results in your research, please cite our pa
 
 If you specifically use **HistoKit**, please also refer to its repository:
 
-**https://github.com/USERNAME/TOOL-REPOSITORY**
+**[HistoKit](https://github.com/ZAEDPolSl/HistoKit/tree/main/src/histokit/)**
 
 ## Results
 
-A detailed description and discussion of the benchmark results can be found in the paper.
+The paper provides a detailed description and discussion of the benchmark results.
 
 Key results include:
 
-* **HistoKit achieved similar or better results for each metric than GrandQC across all datasets. ****
+* **HistoKit achieved similar or better results for each metric than GrandQC across all datasets.**
 * **Deep-learning methods trained on diverse datasets performed better than methods based on image quality metrics and thresholding-based methods.**
 * **Simple post-processing further improved segmentation quality produced by HistoKit**
 
