@@ -1,15 +1,28 @@
-# 🔬 Benchmarking Artifact Segmentation Methods in H&E-Stained Whole Slide Imaging
+# 🔬 Benchmarking and Improvement of Artifact Segmentation Methods in H&E-Stained Whole Slide Imaging
 
 [![arXiv](https://img.shields.io/badge/arXiv-XXXX.XXXXX-b31b1b.svg)](https://arxiv.org/abs/XXXX.XXXXX)
 [![Preprint](https://img.shields.io/badge/Preprint-PDF-blue.svg)](https://arxiv.org/pdf/XXXX.XXXXX)
-[![Tool](https://img.shields.io/badge/Tool-GitHub-black.svg)](https://github.com/USERNAME/TOOL-REPOSITORY)
 
-This repository contains the code, experimental setup, and analysis associated with the benchmark paper:
+This repository contains the code associated with the benchmark paper:
 
-> **Benchmarking Artifact Segmentation Methods in H&E-Stained Whole Slide Imaging**
-> Julia Merta, Joanna Polańska, Michał Marczyk, ...
-> *[Journal / Conference / Preprint, Year]*
-> [arXiv:XXXX.XXXXX](https://arxiv.org/abs/XXXX.XXXXX)
+📄 Benchmarking and Improvement of Artifact Segmentation Methods in H&E-Stained Whole Slide Imaging
+
+Authors: Julia Merta, Daniel Mendelsohn, Benedikt Schoser, Joanna Polańska, Michał Marczyk
+[Preprint] · arXiv.XXXXX
+
+## ✨ Graphical Abstract
+
+<img width="1793" height="950" alt="image" src="https://github.com/user-attachments/assets/7f82cc92-4879-473b-bb7e-988cde379fd0" />
+
+
+
+## ✨ Highlights
+
+- 🔬 First multi-dataset benchmark of public artifact segmentation methods for HE-stained WSIs.
+- ⚡ Six artifact segmentation methods were compared for quality and processing speed.
+- 🧬 A new public multi-source, multi-organ dataset with pixel-level annotations is introduced.
+- 📊 Significant performance differences were found, with HistoKit performing best overall.
+- 🛠️ A post-processing method for HistoKit improved artifact segmentation performance.
 
 ## Overview
 
@@ -67,7 +80,7 @@ This study provides a systematic benchmark of several methods for artifact segme
 </table>
 
 
-The benchmark evaluates the methods across three manually annotated datasets using metrics including Dice, sensitivity, FDR for tissue versus artifact and background segmentation for all the methods. For GrandQC, HistoKit, and Patil et al. (2025), we also analyze Dice per artifact class.
+The benchmark evaluates the methods across three manually annotated datasets using metrics including Dice, sensitivity, and FDR for tissue versus artifact and background segmentation for all the methods. For GrandQC, HistoKit, and Patil et al. (2025), we also analyze Dice per artifact class.
 
 ## 💾 Datasets
 
@@ -75,67 +88,44 @@ The benchmark was performed using the following datasets:
 
 | Dataset     | Description         | Reference / Link |
 | ----------- | ------------------- | ---------------- |
-| Dataset A | [Short description] | [Link]           |
-| Dataset B | [Short description] | [Link]           |
+| Dataset A | [Short description] | [https://github.com/markowetzlab/slidl-tutorial]           |
+| Dataset B | [Short description] | [https://zenodo.org/records/14039591]           |
 | Dataset C (ours) | [Short description] | [Link]           |
 
 Please refer to the paper for the complete description of dataset preparation, inclusion criteria, and experimental settings.
 
-## Paper / Preprint
-
-The preprint is available on arXiv:
-
-**[Paper Title](https://arxiv.org/abs/XXXX.XXXXX)**
-
-PDF:
-
-**[Download the preprint](https://arxiv.org/pdf/XXXX.XXXXX)**
-
-## Repository Structure
-
-```text
-.
-├── data/                   # Data or processed benchmark results
-├── scripts/                # Benchmark and processing scripts
-├── statistical_analysis/   # Statistical analyses
-├── plots/                  # Figures generated from the benchmark
-├── results/                # Benchmark results
-└── README.md
-```
-## Citation
+## 📚 Citation
 
 If you use this benchmark, code, or results in your research, please cite our paper:
 
 ```bibtex
-@article{merta2026,
-  title   = {Benchmarking Artifact Segmentation Methods in H&E-Stained Whole Slide Imaging},
-  author  = {Merta, Julia and Polanska, Joanna and Marczyk, Michał},
+@article{merta2026benchmarking,
+  title   = {Benchmarking and Improvement of Artifact Segmentation Methods in H\&E-Stained Whole Slide Imaging},
+  author  = {Merta, Julia and Mendelsohn, Daniel and Schoser, Benedikt and Polańska, Joanna and Marczyk, Michał},
   journal = {arXiv preprint arXiv:XXXX.XXXXX},
   year    = {2026},
-  eprint  = {XXXX.XXXXX},
-  archivePrefix = {arXiv},
-  primaryClass   = {[e.g. cs.CV]},
   url     = {https://arxiv.org/abs/XXXX.XXXXX}
 }
 ```
 
-If you specifically use **HistoKit**, please also refer to its repository:
+> **Benchmarking and Improvement of Artifact Segmentation Methods in H&E-Stained Whole Slide Imaging**  
+> Julia Merta, Daniel Mendelsohn, Benedikt Schoser, Joanna Polańska, Michał Marczyk  
+> *arXiv preprint*  
+> [arXiv:XXXX.XXXXX](https://arxiv.org/abs/XXXX.XXXXX)
 
-**[HistoKit](https://github.com/ZAEDPolSl/HistoKit/tree/main/src/histokit/)**
+## 🔬 HistoKit
 
-## Results
+If you specifically use HistoKit, please also refer to its repository:
 
-The paper provides a detailed description and discussion of the benchmark results.
+<a href="https://github.com/ZAEDPolSl/HistoKit/tree/main/src/histokit/">
+  <img src="https://github.com/user-attachments/assets/30c97c3b-6dc7-4614-9792-ef4d166f11ca" alt="HistoKit" width="320" align="left">
+</a>
 
-Key results include:
-
-* **HistoKit achieved similar or better results for each metric than GrandQC across all datasets.**
-* **Deep-learning methods trained on diverse datasets performed better than methods based on image quality metrics and thresholding-based methods.**
-* **Simple post-processing further improved segmentation quality produced by HistoKit**
+<br clear="left">
 
 ## License
 
-This repository is released under the **[MIT / Apache-2.0 / GPL-3.0 / other]** license. See [`LICENSE`](LICENSE) for details.
+This repository is released under the **GPL-3.0** license. See [`LICENSE`](LICENSE) for details.
 
 Please note that the datasets and benchmarked third-party methods may be distributed under their own licenses.
 
@@ -145,6 +135,25 @@ For questions regarding the benchmark or the paper, please contact:
 
 **Julia Merta**
 - Department of Data Science and Engineering
-- Silesian University of Technology
+- Silesian University of Technology, Gliwice, Poland
 - 📧 [julia.merta@polsl.pl](mailto:julia.merta@polsl.pl)
 
+**Michał Marczyk**
+- Department of Data Science and Engineering
+- Silesian University of Technology, Gliwice, Poland
+- 📧 [michal.marczyk@polsl.pl](mailto:michal.marczyk@polsl.pl)
+
+## 🏛️ Department of Data Science and Engineering
+
+**Silesian University of Technology**  
+🎓 Faculty of Automatic Control, Electronics and Computer Science
+
+[![Website](https://img.shields.io/badge/🌐_Website-polsl.pl-0057A8?style=for-the-badge)](https://www.polsl.pl/rau4/en/)
+[![GitHub](https://img.shields.io/badge/GitHub-ZAEDPolSl-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ZAEDPolSl)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Follow_Us-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/department-of-data-science-and-engineering)
+
+## 🧬 Founding
+
+This work was partially funded by **CoMPaSS-NMD — Computational Models for New Patient Stratification Strategies of Neuromuscular Disorders**, a project funded by the **European Union under the Horizon Europe programme** (Grant Agreement No. **101080874**).
+
+🔬 [**CoMPaSS-NMD Project — CORDIS**](https://cordis.europa.eu/project/id/101080874)
