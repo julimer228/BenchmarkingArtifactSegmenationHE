@@ -40,9 +40,9 @@ This study provides a systematic benchmark of several methods for artifact segme
 <table width="100%">
   <thead>
     <tr>
-      <th width="40%">Tool / Method</th>
-      <th width="30%">💻 Repository</th>
-      <th width="30%">📄 Paper</th>
+      <th width="33.33%">Tool / Method</th>
+      <th width="33.33%">💻 Repository</th>
+      <th width="33.33%">📄 Paper</th>
     </tr>
   </thead>
   <tbody>
@@ -123,9 +123,9 @@ If you specifically use HistoKit, please also refer to its repository:
 
 <br clear="left">
 
-## License
+## 📜 License
 
-This repository is released under the **GPL-3.0** license. See [`LICENSE`](LICENSE) for details.
+This project is licensed under the GNU General Public License v3.0 (GPL-3.0).
 
 Please note that the datasets and benchmarked third-party methods may be distributed under their own licenses.
 
