@@ -86,11 +86,11 @@ The benchmark evaluates the methods across three manually annotated datasets usi
 
 The benchmark was performed using the following datasets:
 
-| Dataset     | Description         | Reference / Link |
-| ----------- | ------------------- | ---------------- |
-| Dataset A | [Short description] | [https://github.com/markowetzlab/slidl-tutorial]           |
-| Dataset B | [Short description] | [https://zenodo.org/records/14039591]           |
-| Dataset C (ours) | [Short description] | [Link]           |
+| Dataset | Description | Reference / Link |
+|---------|-------------|------------------|
+| Dataset A | Subset of SLIDL tutorial dataset | [GitHub – markowetzlab/slidl-tutorial](https://github.com/markowetzlab/slidl-tutorial) |
+| Dataset B | Subset of the GrandQC test dataset | [Zenodo – Record 14039591](https://zenodo.org/records/14039591) |
+| Dataset C (ours) | Dataset published with this study | To be published |
 
 Please refer to the paper for the complete description of dataset preparation, inclusion criteria, and experimental settings.
 
@@ -123,12 +123,6 @@ If you specifically use HistoKit, please also refer to its repository:
 
 <br clear="left">
 
-## 📜 License
-
-This project is licensed under the GNU General Public License v3.0 (GPL-3.0).
-
-Please note that the datasets and benchmarked third-party methods may be distributed under their own licenses.
-
 ## Contact
 
 For questions regarding the benchmark or the paper, please contact:
@@ -157,3 +151,10 @@ For questions regarding the benchmark or the paper, please contact:
 This work was partially funded by **CoMPaSS-NMD — Computational Models for New Patient Stratification Strategies of Neuromuscular Disorders**, a project funded by the **European Union under the Horizon Europe programme** (Grant Agreement No. **101080874**).
 
 🔬 [**CoMPaSS-NMD Project — CORDIS**](https://cordis.europa.eu/project/id/101080874)
+
+## 📜 License
+
+Copyright (C) 2026 Julia Merta, Daniel Mendelsohn, Benedikt Schoser, Joanna Polańska, Michał Marczyk
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
