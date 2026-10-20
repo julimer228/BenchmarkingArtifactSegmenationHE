@@ -1,6 +1,6 @@
 # 🔬 Benchmarking and Improvement of Artifact Segmentation Methods in H&E-Stained Whole Slide Imaging
 
-[![arXiv](https://img.shields.io/badge/arXiv-XXXX.XXXXX-b31b1b.svg)](https://arxiv.org/abs/2610.24037)
+[![arXiv](https://img.shields.io/badge/arXiv-2610.24037-b31b1b.svg)](https://arxiv.org/abs/2610.24037)
 [![Preprint](https://img.shields.io/badge/Preprint-PDF-blue.svg)](https://arxiv.org/pdf/2610.24037)
 
 This repository contains the code associated with the benchmark paper:
