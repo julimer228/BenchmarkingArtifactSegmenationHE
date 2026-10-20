@@ -1,14 +1,14 @@
 # 🔬 Benchmarking and Improvement of Artifact Segmentation Methods in H&E-Stained Whole Slide Imaging
 
-[![arXiv](https://img.shields.io/badge/arXiv-XXXX.XXXXX-b31b1b.svg)](https://arxiv.org/abs/XXXX.XXXXX)
-[![Preprint](https://img.shields.io/badge/Preprint-PDF-blue.svg)](https://arxiv.org/pdf/XXXX.XXXXX)
+[![arXiv](https://img.shields.io/badge/arXiv-XXXX.XXXXX-b31b1b.svg)](https://arxiv.org/abs/2610.24037)
+[![Preprint](https://img.shields.io/badge/Preprint-PDF-blue.svg)](https://arxiv.org/pdf/2610.24037)
 
 This repository contains the code associated with the benchmark paper:
 
 📄 Benchmarking and Improvement of Artifact Segmentation Methods in H&E-Stained Whole Slide Imaging
 
 Authors: Julia Merta, Daniel Mendelsohn, Benedikt Schoser, Joanna Polańska, Michał Marczyk
-[Preprint] · arXiv.XXXXX
+[Preprint] · arXiv.2610.24037
 
 ## ✨ Graphical Abstract
 
@@ -102,16 +102,16 @@ If you use this benchmark, code, or results in your research, please cite our pa
 @article{merta2026benchmarking,
   title   = {Benchmarking and Improvement of Artifact Segmentation Methods in H\&E-Stained Whole Slide Imaging},
   author  = {Merta, Julia and Mendelsohn, Daniel and Schoser, Benedikt and Polańska, Joanna and Marczyk, Michał},
-  journal = {arXiv preprint arXiv:XXXX.XXXXX},
+  journal = {arXiv preprint arXiv:2610.24037},
   year    = {2026},
-  url     = {https://arxiv.org/abs/XXXX.XXXXX}
+  url     = {https://arxiv.org/abs/2610.24037}
 }
 ```
 
 > **Benchmarking and Improvement of Artifact Segmentation Methods in H&E-Stained Whole Slide Imaging**  
 > Julia Merta, Daniel Mendelsohn, Benedikt Schoser, Joanna Polańska, Michał Marczyk  
 > *arXiv preprint*  
-> [arXiv:XXXX.XXXXX](https://arxiv.org/abs/XXXX.XXXXX)
+> [arXiv:2610.24037](https://arxiv.org/abs/2610.24037)
 
 ## 🔬 HistoKit
 
